@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+body{
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border:5px solid black;
+    padding:10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    min-height: 5vh;
+}
+.addBtn{
+    padding:10px 30px;
+    background-color:#0C77DD ;
+    font-size: 20px;
+}
+.taskInput{
+    height:40px;
+    width:300px;
+    padding-left:10px;
+    font-size: 20px;
+}
+label{
+    border:2px solid black;
+    padding:10px 30px;
+    font-size: 20px;
+}
+.task{
+    border:2px solid black;
+    padding:10px 0;
+    width:36.5vw;
+    padding:10px 15px;
+    font-size: 25px;
+}
+.indexing{
+    margin-right:10px;
+}
+.delete{
+    float:right;
+}
+.delete:hover{
+    color:red;
+}
